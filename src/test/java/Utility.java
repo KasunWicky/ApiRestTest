@@ -16,7 +16,7 @@ public class Utility {
      * Invoking api call to server
      */
     public static void invokeApiCalls() {
-        baseURI("https://api.tmsandbox.co.nz/v1");
+        baseURI(staticData.baseURI);
         basePath("/Categories/6327/Details.json?catalogue=false");
         jSonContent();
 
