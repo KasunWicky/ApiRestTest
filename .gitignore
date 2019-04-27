@@ -4,8 +4,8 @@ target/
 
 # Intellij
 .idea/
-**.idea/**
 *.iml
 *.iws
 
-.idea/workspace.xml
+
+
